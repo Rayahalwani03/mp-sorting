@@ -3,7 +3,8 @@
     public partial class MainPage : ContentPage
     {
  
-
+ int count = 0;
+        bool ascending = true; // Default sorting order is ascending
         public MainPage()
         {
             InitializeComponent();
@@ -26,6 +27,22 @@
             XX3.Text = X[2].ToString();
             XX4.Text = X[3].ToString();
             XX5.Text = X[4].ToString();
+        }
+
+                private void RB1_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            if (e.Value)
+            {
+                ascending = true;
+            }
+        }
+
+        private void RB2_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            if (e.Value)
+            {
+                ascending = false;
+            }
         }
 
     }
