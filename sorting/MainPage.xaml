@@ -71,8 +71,8 @@
 
         <StackLayout>
 
-            <RadioButton x:Name="AscButton" Content="Ascending"/>
-            <RadioButton x:Name="DescButton" Content="Descinding"/>
+            <RadioButton x:Name="AscButton" Content="Ascending" Clicked="RB1_CheckedChanged"/>
+            <RadioButton x:Name="DescButton" Content="Descinding" Clicked="RB2_CheckedChanged"/>
 
         </StackLayout>
     </StackLayout>
