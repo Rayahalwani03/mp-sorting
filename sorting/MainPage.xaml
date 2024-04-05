@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="sorting.MainPage">
+
+    <StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label  Text="X1"
+                    TextColor="White"
+                    BackgroundColor="Maroon"
+                    WidthRequest="30"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment ="Center" />
+
+            <Entry x:Name="XX1" WidthRequest="100"
+                    Keyboard="Numeric"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label  Text="X2"
+                    TextColor="White"
+                    BackgroundColor="Maroon"
+                    WidthRequest="30"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment ="Center" />
+
+            <Entry x:Name="XX2" WidthRequest="100"
+                    Keyboard="Numeric"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label  Text="X3"
+                    TextColor="White"
+                    BackgroundColor="Maroon"
+                    WidthRequest="30"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment ="Center" />
+
+            <Entry x:Name="XX3" WidthRequest="100"
+                    Keyboard="Numeric"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label  Text="X4"
+                    TextColor="White"
+                    BackgroundColor="Maroon"
+                    WidthRequest="30"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment ="Center" />
+
+            <Entry x:Name="XX4" WidthRequest="100"
+                    Keyboard="Numeric"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label  Text="X5"
+                    TextColor="White"
+                    BackgroundColor="Maroon"
+                    WidthRequest="30"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment ="Center" />
+
+            <Entry x:Name="XX5" WidthRequest="100"
+                    Keyboard="Numeric"/>
+        </StackLayout>
+
+
+
+        <Button x:Name="Btn1" Text="Sort" Clicked="Btn1_Clicked" WidthRequest="100" BackgroundColor="Grey" />
+
+        <StackLayout>
+
+            <RadioButton x:Name="AscButton" Content="Ascending"/>
+            <RadioButton x:Name="DescButton" Content="Descinding"/>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
